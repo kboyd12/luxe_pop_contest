@@ -45,4 +45,4 @@ if __name__ == "__main__":
     url = "https://www.guidetogwinnett.com/bog_count_insert.php"
     c = main(url)
 
-    logging.info(f"Successfully votes: {c}")
+    logging.info(f"Successful votes: {c}")
