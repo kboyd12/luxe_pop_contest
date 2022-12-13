@@ -1,11 +1,12 @@
 import requests
+import os
 import random
 import time
 import datetime
 import logging
 
 logging.basicConfig(
-    filename="log.log",
+    filename=f"{os.path.realpath(os.path.dirname(__file__))}/log.log",
     encoding="utf-8",
     level=logging.DEBUG,
     format="%(asctime)s - %(levelname)s - %(message)s",
